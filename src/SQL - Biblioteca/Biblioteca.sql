@@ -7,9 +7,9 @@ use Biblioteca;
 
 /* Cria todas as tabelas do banco de dados - Categoria - Autor - Livro - Editora - LivroAutor */
 CREATE TABLE Categoria (
-	id int not null identity,
-	tipo_categoria varchar(50) not null unique,
-	PRIMARY KEY (id)
+  id int not null identity,
+  tipo_categoria varchar(50) not null unique,
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE Autor (
@@ -56,13 +56,13 @@ VALUES ('Marcos Piangers', 'Brasil');
 INSERT INTO Autor (nome, nacionalidade) 
 VALUES ('Ciro Botelho - Tiririca', 'Brasil');
 INSERT INTO Autor (nome, nacionalidade) 
-VALUES ('Bianca MÛl', 'Brasil');
+VALUES ('Bianca M√≥l', 'Brasil');
 
 
 INSERT INTO Categoria (tipo_categoria) 
 VALUES ('Leitura Juvenil');
 INSERT INTO Categoria (tipo_categoria) 
-VALUES ('FicÁ„o Cientifica');
+VALUES ('Fic√ß√£o Cientifica');
 INSERT INTO Categoria (tipo_categoria) 
 VALUES ('Humor');
 
@@ -80,15 +80,15 @@ VALUES ('Matrix');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
 VALUES ('8532511015', 'Harry Potter e a Pedra Filosofal', '2000', '1', '1');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
-VALUES ('9788578270698', 'As CrÙnicas de N·rnia', '2009', '1', '2');
+VALUES ('9788578270698', 'As Cr√¥nicas de N√°rnia', '2009', '1', '2');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
-VALUES ('9788577343348', 'O Espadachim de Carv„o', '2013', '2', '3');
+VALUES ('9788577343348', 'O Espadachim de Carv√£o', '2013', '2', '3');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
-VALUES ('9788581742458', 'O Papai … Pop', '2015', '3', '4');
+VALUES ('9788581742458', 'O Papai √â Pop', '2015', '3', '4');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
-VALUES ('9788582302026', 'Pior Que T· N„o Fica', '2015', '3', '5');
+VALUES ('9788582302026', 'Pior Que T√° N√£o Fica', '2015', '3', '5');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
-VALUES ('9788577345670', 'Garota Desdobr·vel', '2015', '1', '3');
+VALUES ('9788577345670', 'Garota Desdobr√°vel', '2015', '1', '3');
 INSERT INTO Livro (ISBN, titulo, ano, id_categoria, id_editora) 
 VALUES ('8532512062', 'Harry Potter e o prisioneiro de Azkaban', '2000', '1', '1');
 
