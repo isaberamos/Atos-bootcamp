@@ -159,5 +159,3 @@ AND dinossauro.id_era = era.id
 AND grupo.nome = 'Anquilossauros'
 AND dinossauro.ano_descoberta between 1900 AND 1999
 ORDER BY dinossauro.ano_descoberta;
-
-select * from dinossauros
