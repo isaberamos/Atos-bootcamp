@@ -7,13 +7,6 @@ import java.util.Scanner;
 			public String data;
 			public String hora;
 			
-			public void atribuirValores (String nome_compromisso, String data, String hora) {
-				//super.compromisso_pessoal = compromisso_pessoal;
-				//super.compromisso_profissional = compromisso_profissional;
-				this.nome_compromisso = nome_compromisso;
-				this.data = data;
-				this.hora = hora;
-	}
 			public void exibirDados() {
 				System.out.println(">>>>>>>>  MINHA AGENDA  <<<<<<<<<");
 				
