@@ -1,2 +1,2 @@
 # BootcampATOS
- Projetos e exercícios feitos para o Bootcamp ATOS
+ Projetos e exercícios feitos no Bootcamp ATOS
