@@ -1,4 +1,4 @@
-# Bootcamp ATOS
+# ATOS Bootcamp
 
 ---
 
